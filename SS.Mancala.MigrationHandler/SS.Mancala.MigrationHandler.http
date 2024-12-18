@@ -1,0 +1,6 @@
+@SS.Mancala.MigrationHandler_HostAddress = http://localhost:5092
+
+GET {{SS.Mancala.MigrationHandler_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

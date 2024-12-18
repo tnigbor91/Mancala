@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SS.Mancala.API</name>
+    </assembly>
+    <members>
+        <member name="M:GameController.StartNewGame">
+            <summary>
+            Starts a new game with two players.
+            </summary>
+        </member>
+        <member name="M:GameController.GetBoard(System.Guid)">
+            <summary>
+            Gets the current state of the game board.
+            </summary>
+        </member>
+        <member name="M:GameController.GetPits(System.Guid)">
+            <summary>
+            Retrieves the pits for the specified game.
+            </summary>
+            <param name="id">The ID of the game.</param>
+            <returns>A list of pits for the game, including details such as PitPosition, Stones, IsMancala, and PlayerId.</returns>
+            <response code="200">Returns the list of pits for the game.</response>
+            <response code="404">If the game with the specified ID is not found.</response>
+            <response code="500">If an internal server error occurs.</response>
+        </member>
+        <member name="M:GameController.CheckWinner(System.Guid)">
+            <summary>
+            Checks the winner of the game.
+            </summary>
+        </member>
+        <member name="M:SS.Mancala.API.Controllers.GenericController`3.Get">
+            <summary>
+            Get all the entities of a particular type
+            </summary>
+            <returns>List of T</returns>
+        </member>
+        <member name="M:SS.Mancala.API.Controllers.GenericController`3.Get(System.Guid)">
+            <summary>
+            Get an entity for a particular type
+            </summary>
+            <param name="id">Id for the entity</param>
+            <returns></returns>
+        </member>
+        <member name="M:SS.Mancala.API.Controllers.GenericController`3.Post(`0,System.Boolean)">
+            <summary>
+            Insert a new entity
+            </summary>
+            <param name="entity">New Entity</param>
+            <param name="rollback">Should I roll this back?</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

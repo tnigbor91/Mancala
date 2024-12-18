@@ -1,0 +1,4 @@
+﻿CREATE TABLE [dbo].[tblPits]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+)
