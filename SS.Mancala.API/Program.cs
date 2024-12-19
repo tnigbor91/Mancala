@@ -131,8 +131,8 @@ public class Program
     {
         try
         {
-            var keyVaultName = "kv-101521081-500122975";
-            var kvUri = $"https://{keyVaultName}.vault.azure.net";
+            var keyVaultName = "";
+            var kvUri = $"";
 
             var client = new SecretClient(new Uri(kvUri), new DefaultAzureCredential());
             var secret = await client.GetSecretAsync(secretName);
