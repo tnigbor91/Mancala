@@ -39,9 +39,8 @@ public class Program
                 Version = "v1",
                 Contact = new Microsoft.OpenApi.Models.OpenApiContact
                 {
-                    Name = "Brittany Young",
-                    Email = "500122975@fvtc.edu",
-                    Url = new Uri("https://www.fvtc.edu")
+                    Name = "",
+                    Email = "",
                 }
 
             });
